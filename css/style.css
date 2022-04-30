@@ -7,6 +7,13 @@ body {
     margin: 1rem;
 }
 
+:root {
+    --fs-body: 1.125rem;
+}
+
+
+/*** Header ***/
+
 #title {
     margin-top: 2rem;
     text-align: center;
@@ -15,4 +22,14 @@ body {
 #description {
     text-align: center;
     font-size: 1.25rem;
+}
+
+
+/*** Main / Form ***/
+
+
+
+form {
+    font-size: var(--fs-body);
+    margin: 1rem;
 }
