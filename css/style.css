@@ -10,6 +10,7 @@ body {
 :root {
     --fs-h1: 2.25rem;
     --fs-body: 1.625rem;
+    --fs-input: 1.25rem;
 }
 
 
@@ -46,4 +47,14 @@ form {
 .grade {
     display: flex;
     flex-direction: column;
+}
+
+.input-text,
+.select-text {
+    font-size: var(--fs-input);
+}
+
+.radio-text,
+.checkbox-text {
+    font-size: var(--fs-input);
 }
