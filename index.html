@@ -17,22 +17,22 @@
     <main>
         <form id="survey-form" action="">
             <section class="name">
-                <label for="name" id="name-label">Name: </label>
+                <label for="name" id="name-label" class="question-text">Name: </label>
                 <input name="name" id="name" class="input-text" type="text" placeholder="Enter your name" required>
             </section>
             
             <section class="email">
-                <label for="email" id="email-label">Email: </label>
+                <label for="email" id="email-label" class="question-text">Email: </label>
                 <input name="email" id="email" class="input-text" type="email" placeholder="Enter your email" required>
             </section>
 
             <section class="age">
-                <label for="age" id="number-label">Age: </label>
+                <label for="age" id="number-label" class="question-text">Age: </label>
                 <input name="age" id="number" class="input-text" type="number" placeholder="Enter your age" min="10" max="20" required>                
             </section>
 
             <section class="grade">
-                <label for="grade">Grade: </label>
+                <label for="grade" class="question-text">Grade: </label>
                 <select class="select-text" name="grade" id="dropdown" required>
                     <option disable selected value>--Select your grade--</option>
                     <option value="6">6th</option>
@@ -47,7 +47,7 @@
 
 
             <section class="satisfaction-level radio-field">
-                <legend>How satisfied are you with the youth group?</legend>
+                <legend class="question-text">How satisfied are you with the youth group?</legend>
                 <div class="satisfied">
                     <input type="radio" id="satisfied" name="satisfaction-level" value="satisfied" checked>
                     <label class="radio-text" for="satisfied">Love it</label>                    
@@ -66,7 +66,7 @@
 
 
             <section class="recommend-to-friend radio-field">
-                <legend>Would you recommend Hebron Youth Group to a friend?</legend>
+                <legend class="question-text">Would you recommend Hebron Youth Group to a friend?</legend>
                 <div class="yes">
                     <input type="radio" id="yes" name="recommend-to-friend" value="yes" checked>
                     <label class="radio-text" for="yes">Of course!</label>                    
@@ -85,7 +85,7 @@
             </section>
 
             <section class="checkbox-field">
-                <legend>What would you like more of?</legend>
+                <legend class="question-text">What would you like more of?</legend>
                 <div>
                     <input type="checkbox" id="worship" name="worship" value="worship">
                     <label class="checkbox-text" for="worship">Worship</label>                    
@@ -134,7 +134,7 @@
             </section>
 
             <section class="comments-field">
-                <label for="comments">Additional Comments: </label>
+                <label for="comments" class="question-text">Additional Comments: </label>
                 <textarea name="comments" id="comments" cols="30" rows="5">Please elaborate on any of the above!</textarea>                
             </section>
 
