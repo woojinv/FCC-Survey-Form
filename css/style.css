@@ -10,12 +10,16 @@
 :root {
     --ff-primary: 'Mali', cursive;
 
+    --clr-light: #caf0f8;
+    --clr-dark: #00b4d8;
+
     --fs-h1: 2.25rem;
     --fs-body: 1.625rem;
     --fs-input: 1.25rem;
 }
 
 body {
+    background-color: var(--clr-light);
     margin: 1rem;
     font-family: var(--ff-primary);
 }
@@ -46,6 +50,10 @@ main {
 form {
     font-size: var(--fs-body);
     margin: .5rem;
+    border: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    border-color: var(--clr-dark);
 }
 
 
@@ -60,6 +68,12 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.name {
+    margin-top: 1rem;
 }
 
 .question-text {
@@ -71,9 +85,22 @@ form {
 .text-area-text {
     font-size: var(--fs-input);
     font-family: var(--ff-primary);
+    border-width: 1px;
+    border-color: var(--clr-dark);
+    border-radius: .25rem;
 }
 
 .radio-text,
 .checkbox-text {
     font-size: var(--fs-input);
+}
+
+.button {
+    background-color: var(--clr-dark);
+    color:aliceblue;
+    font-size: var(--fs-body);
+    font-family: var(--ff-primary);
+    border: solid;
+    border-radius: .5rem;
+    border-width:1px;
 }
