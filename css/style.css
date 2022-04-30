@@ -38,15 +38,21 @@ main {
 
 form {
     font-size: var(--fs-body);
-    margin: 1rem;
+    margin: .5rem;
 }
+
 
 .name,
 .email,
 .age,
-.grade {
+.grade,
+.comments-field,
+.radio-field,
+.checkbox-field,
+.submit {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
 .input-text,
