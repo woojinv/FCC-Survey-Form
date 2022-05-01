@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a survey form for my Church's youth group to provide an opportunity for the students to share feedback they may have. 
+This is a [survey form](https://woojinv.github.io/survey-form-FCC/) for my Church's youth group to provide an opportunity for the students to share feedback they may have. 
 
 It was built using only HTML and CSS for Part 2 of FreeCodeCamp's Responsive Web Design Certification. 
 
@@ -14,5 +14,9 @@ I became more comfortable using CSS Flexbox, custom properties, and rem units.
 
 ## Screenshots
 
-![Survey Form 1](https://i.imgur.com/jfa51E5.png) ![Survey Form 2](https://i.imgur.com/pZ8Inoo.png) ![Survey Form 3](https://i.imgur.com/whVh5rr.png)
+<img src="https://i.imgur.com/jfa51E5.png" alt="Survey Form 1" width="300"> <img src="https://i.imgur.com/pZ8Inoo.png" alt="Survey Form 2" width="300"> <img src="https://i.imgur.com/whVh5rr.png" alt="Survey Form 3" width="300">
 
+
+## Next Steps
+
+- Connect to a database to store responses
