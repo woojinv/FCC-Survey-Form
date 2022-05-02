@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a [survey form](https://woojinv.github.io/survey-form-FCC/) for my Church's youth group to provide an opportunity for the students to share feedback they may have. 
+This is a [survey form](https://woojinv.github.io/FCC-Survey-Form/) for my Church's youth group to provide an opportunity for the students to share feedback they may have. 
 
 It was built using only **HTML** and **CSS** for Part 2 of FreeCodeCamp's *Responsive Web Design Certification*. 
 
